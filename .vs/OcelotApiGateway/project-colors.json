@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "69c60410-74bd-41b3-a114-1b89569c1814": {
+      "ProjectGuid": "69c60410-74bd-41b3-a114-1b89569c1814",
+      "DisplayName": "APIGateway",
+      "ColorIndex": 0
+    },
+    "51730477-c890-4126-9197-d548de8155f0": {
+      "ProjectGuid": "51730477-c890-4126-9197-d548de8155f0",
+      "DisplayName": "AuthAPI",
+      "ColorIndex": 1
+    },
+    "07e2d717-ed38-46cc-9293-2b994a6c5f14": {
+      "ProjectGuid": "07e2d717-ed38-46cc-9293-2b994a6c5f14",
+      "DisplayName": "CostumerAPI",
+      "ColorIndex": 2
+    },
+    "cf24b693-2782-463f-b1fb-4178bb76bd38": {
+      "ProjectGuid": "cf24b693-2782-463f-b1fb-4178bb76bd38",
+      "DisplayName": "ProductAPI",
+      "ColorIndex": 3
+    },
+    "44305ad7-47a0-41a8-af89-10d6206fd6f5": {
+      "ProjectGuid": "44305ad7-47a0-41a8-af89-10d6206fd6f5",
+      "DisplayName": "CostumerAPI",
+      "ColorIndex": 4
+    },
+    "ae034d76-0b13-4bc3-a0af-01e101c7a8eb": {
+      "ProjectGuid": "ae034d76-0b13-4bc3-a0af-01e101c7a8eb",
+      "DisplayName": "APIGateway",
+      "ColorIndex": 5
+    },
+    "3af341ff-eb23-4e52-9af7-680dc6e33a17": {
+      "ProjectGuid": "3af341ff-eb23-4e52-9af7-680dc6e33a17",
+      "DisplayName": "AuthAPI",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Diğer Dosyalar",
+      "ColorIndex": -1
+    },
+    "21e805f3-2630-44aa-92a5-287599eea927": {
+      "ProjectGuid": "21e805f3-2630-44aa-92a5-287599eea927",
+      "DisplayName": "CustomerAPI",
+      "ColorIndex": 7
+    },
+    "8fdb10df-7b3d-47a0-a296-408e13f0e40c": {
+      "ProjectGuid": "8fdb10df-7b3d-47a0-a296-408e13f0e40c",
+      "DisplayName": "ProductAPI",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}
