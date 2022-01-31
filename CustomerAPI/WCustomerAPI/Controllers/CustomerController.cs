@@ -8,6 +8,7 @@ namespace WCustomerAPI.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
+        [HttpGet]
         public IActionResult Get()
         {
             return Ok(new List<string> {

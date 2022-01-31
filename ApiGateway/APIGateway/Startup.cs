@@ -75,12 +75,14 @@ namespace APIGateway
            
          app.UseAuthentication();
          app.UseAuthorization();
-         await app.UseOcelot();
+        
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+             await app.UseOcelot();
         }
     }
 }

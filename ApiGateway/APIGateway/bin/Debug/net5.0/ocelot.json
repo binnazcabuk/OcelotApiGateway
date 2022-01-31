@@ -1,47 +1,48 @@
 {
-   "Routes": [
-      {
-         "DownstreamPathTemplate": "/api/product",
-         "DownstreamScheme": "https",
-         "DownstreamHostAndPorts": [
-             {
-                 "Host": "localhost",
-                 "Port": 1000
-             }
-         ],
-         "UpstreamPathTemplate": "/api/product",
-         "UpstreamHttpMethod": [ "Get" ],
-         "AuthenticationOptions": {
-            "AuthenticationProviderKey": "TestKey",
-            "AllowedScopes": []
-          }
-      },
-      {
-         "DownstreamPathTemplate": "/api/customer",
-         "DownstreamScheme": "https",
-         "DownstreamHostAndPorts": [
-             {
-                 "Host": "localhost",
-                 "Port": 2000
-             }
-         ],
-         "UpstreamPathTemplate": "/api/customer",
-         "UpstreamHttpMethod": [ "Get" ]
-      },
-      {
-         "DownstreamPathTemplate": "/api/auth",
-         "DownstreamScheme": "https",
-         "DownstreamHostAndPorts": [
-             {
-                 "Host": "localhost",
-                 "Port": 3000
-             }
-         ],
-         "UpstreamPathTemplate": "/api/auth",
-         "UpstreamHttpMethod": [ "Get" ]
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44360
+        }
+      ],
+      "UpstreamPathTemplate": "/product",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
       }
-   ],
-   "GlobalConfiguration": {
-       "BaseUrl": "https://localhost:4000"
-   }
+    },
+    {
+      "DownstreamPathTemplate": "api/customer",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "46256"
+        }
+      ],
+      "UpstreamPathTemplate": "/customer",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/auth",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/auth",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44396"
+  }
+
 }
