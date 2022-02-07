@@ -50,7 +50,12 @@
       "ProjectGuid": "8fdb10df-7b3d-47a0-a296-408e13f0e40c",
       "DisplayName": "ProductAPI",
       "ColorIndex": 8
+    },
+    "b72a3feb-5142-448b-b91f-dfd0b9a942d3": {
+      "ProjectGuid": "b72a3feb-5142-448b-b91f-dfd0b9a942d3",
+      "DisplayName": "Gateway.API",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }
